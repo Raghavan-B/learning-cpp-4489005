@@ -4,9 +4,14 @@
 
 #include <iostream>
 
+int a, b = 5;
+
+using namespace std;
 int main(){
-    std::cout << "Hi There!" << std::endl;
-    
-    std::cout << std::endl << std::endl;
+    bool my_flag; // 0 - false and 1 - True (default: False)
+    cout << my_flag;
+    cout << "Hi There!" << endl;
+
+    cout << endl << endl;
     return (0);
 }
